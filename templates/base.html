@@ -12,28 +12,24 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Krona+One&family=Sawarabi+Gothic&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Zen+Kurenaido&family=Zen+Old+Mincho&display=swap"
       rel="stylesheet"
     />
     <!--Google Fonts-->
     <!--css-->
-    <link rel="stylesheet" href="{{ get_url(path="base.css",
-    trailing_slash=false) | safe }}">
+    <link rel="stylesheet" href="{{
+    get_url(path="base.css",trailing_slash=false) | safe }}">
     <!--css-->
     <!--og setting-->
     <meta property="og:title" content="Ultra-Coins" />
-    <meta
-      name="keyword"
-      content="Ultra-Coins, coins, ウルトラコインズ, 筑波大学, 情報情報科学類"
-    />
-    <meta property="og:description" content="Ultra-Coinsのウェブサイトです。" />
+    <meta name="keyword" content="jsys, 雙峰祭, 局旅行, 筑波大学" />
+    <meta property="og:description" content="jsys局旅行のブログサイトです。" />
     <meta property="og:image:width" content="1500" />
-    <meta
-      property="og:image"
-      content="https://github.com/ultra-coins/uc-room-website-new/blob/main/static/ultra-coins.webp"
-    />
+    <meta property="og:image" content="" />
+    <!--TODO: 画像もらう-->
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://github.com/ultra-coins/" />
+    <meta property="og:url" content="" />
+    <!--TODO: URLは後で入れる-->
     <!--og setting-->
     <!--katex-->
     <link
@@ -61,12 +57,14 @@
       onload="renderMathInElement(document.body);"
     ></script>
     <!--katex-->
-    <title>Ultra-Coins Blog</title>
+    <title>jsys局旅行</title>
   </head>
   <body>
     <!--header-->
     <header class="blog-header">
-      <a href="/" class="krona-one-regular blog-title">Ultra-Coins</a>
+      <a href="https://sohosai.com/" class="krona-one-regular blog-title"
+        >sohosai website</a
+      >
     </header>
     <!--header-->
     {% block content %} {% endblock %}
