@@ -1,6 +1,6 @@
-# Ultra-Coins の Blog
+# jsys局旅行 の Blog
 
-このレポジトリは、Ultra-Coins のブログとして機能します。
+このレポジトリは、jsys局旅行のブログとして機能します。
 
 ブログは、zola という SSG(静的サイトジェネレータ)を使用しています。
 
@@ -21,7 +21,7 @@ title = "タイトル"
 date = 2000-01-01
 authors = ["執筆者"]
 [taxonomies]
-tags = ["Ultra-Coins", "network"]
+tags = ["jsys24", "グルメ"]
 +++
 ```
 
