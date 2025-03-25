@@ -1,7 +1,7 @@
 services:
-  ultra-coins-blog:
-    image: ghcr.io/ultra-coins/ultra-coins-blog/blog:main
-    container_name: ultra-coins-blog
+  jsys-travel-blog:
+    image: ghcr.io/myxogastria0808/nyoki/blog:main
+    container_name: jsys-travel-blog
     build:
       context: .
       dockerfile: ./Dockerfile

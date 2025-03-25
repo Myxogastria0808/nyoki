@@ -1,7 +1,7 @@
 services:
-  ultra-coins-blog:
-    image: ultra-coins-blog
-    container_name: ultra-coins-blog
+  jsys-travel-blog:
+    image: jsys-travel-blog
+    container_name: jsys-travel-blog
     build:
       context: .
       dockerfile: ./Dockerfile
