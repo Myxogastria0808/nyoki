@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+Allow: /
+Sitemap: https://myxogastria0808.github.io/nyoki/sitemap.xml
