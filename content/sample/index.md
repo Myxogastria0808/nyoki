@@ -1,9 +1,9 @@
 +++
 title = "Sample Blog Page"
-date = 3000-01-01
-authors = ["Ultra-Coins", "筑波大学"]
+date = 2025-03-25
+authors = ["そぽたん", "そぽたん2"]
 [taxonomies]
-tags = ["GitOps", "k8s"]
+tags = ["jsys24", "局旅行"]
 +++
 
 # h1
