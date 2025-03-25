@@ -3,20 +3,21 @@ html,
 body {
   padding: 0;
   margin: 0;
-  background-color: #282828;
+  background-color: #d8d8d8;
   * {
-    color: #ffffff;
+    color: #000000;
   }
-  .krona-one-regular {
-    font-family: "Krona One", serif;
+  .zen-old-mincho-regular {
+    font-family: "Zen Old Mincho", serif;
     font-weight: 400;
     font-style: normal;
   }
-  .sawarabi-gothic-regular {
-    font-family: "Sawarabi Gothic", serif;
+  .zen-kurenaido-regular {
+    font-family: "Zen Kurenaido", sans-serif;
     font-weight: 400;
     font-style: normal;
   }
+  
   /* header */
   .blog-header {
     padding: 30px 0 30px 0;
@@ -34,7 +35,9 @@ body {
   footer {
     margin: auto 0 0 0;
     padding: 0;
-    background-color: #141414;
+    background-color: #d8d8d8;
+    box-shadow:11px 11px 22px #c7c7c7,
+    -11px -11px 22px #f8f8f8;
     height: 150px;
     .credit {
       margin: 0;
@@ -49,7 +52,17 @@ body {
   }
 }
 
-//* Ultra-Coins Blog list *//
+//* First View *//
+.first-view {
+  background-image: url("first-view/sample.webp");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+
+//* jsys局旅行 Blog list *//
 .blog-list-page-section {
   height: 100lvh;
   width: 100%;
