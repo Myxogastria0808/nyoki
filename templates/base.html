@@ -61,18 +61,15 @@
   </head>
   <body>
     <!--header-->
-    <header class="blog-header">
-      <a href="/" class="krona-one-regular blog-title">jsys局旅行</a>
-      <a href="https://sohosai.com/" class="krona-one-regular blog-title"
-        >sohosai website</a
-      >
+    <header class="header">
+      <a href="/" class="title">jsys局旅行</a>
     </header>
     <!--header-->
     {% block content %} {% endblock %}
     <!--footer-->
     <footer>
       <p class="credit">
-        <a class="sawarabi-gothic-regular" href="https://sohosai.com">
+        <a href="https://sohosai.com">
           © <span id="year"></span> Designed and Created by: jsys24
           (Myxogastria0808)
         </a>
@@ -81,7 +78,7 @@
     <!--footer-->
     <script type="module">
       import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs";
-      mermaid.initialize({ startOnLoad: true, theme: "dark" });
+      mermaid.initialize({ startOnLoad: true, theme: "light" });
       document.getElementById("year").textContent = new Date().getFullYear();
     </script>
   </body>
